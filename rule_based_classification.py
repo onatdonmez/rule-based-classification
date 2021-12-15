@@ -1,5 +1,4 @@
 # Read the persona.csv file and show the general information about the dataset.
-
 import pandas as pd
 df = pd.read_csv('datasets/persona.csv')
 df.head(5)
@@ -13,7 +12,6 @@ df.isnull().values.any()
 df.isnull().sum()
 
 # How many unique SOURCE are there? What are their frequencies?
-
 df["SOURCE"].nunique()
 df["SOURCE"].value_counts()
 
@@ -76,7 +74,7 @@ agg_df["SEGMENT"] = pd.qcut(agg_df["PRICE"], 4, labels = ["D","C","B","A"])
 agg_list = ["mean", "max", "min"]
 agg_df.groupby("SEGMENT").agg({"PRICE" : agg_list})
 
-# C segmenti analysis
+# C segment analysis
 agg_df["SEGMENT"] == "C"
 agg_df[agg_df["SEGMENT"] == "C"]
 agg_df["SEGMENT"].value_counts()
