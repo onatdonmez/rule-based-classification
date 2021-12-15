@@ -2,6 +2,8 @@
 
 We feel obliged to apply machine learning to all the problems we face in the business world. But for some problems there are easier solutions.
 
+![customer](https://user-images.githubusercontent.com/33136610/146159609-9009d49f-7743-4f3f-97c5-9bf1ecee19fb.jpeg)
+
 ### Business Problem
 A game company wants to create level-based new customer definitions (personas) by using some features of its customers, and to create segments according to these new customer definitions and to estimate how much the new customers can bring in average according to these segments.
 For example, it is desired to determine how much a 25-year-old male user from Turkey, who is an IOS user, can bring in average.
